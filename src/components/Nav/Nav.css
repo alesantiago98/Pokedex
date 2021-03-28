@@ -1,0 +1,52 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid rgba(255,50,50,0.5);
+}
+.form{
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.searchinput{
+  border: 0.1rem solid black;
+  border-right: none;
+  border-radius: 0.2rem 0 0 0.2rem;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+.submitbutton{
+  border: 0.1rem solid black;
+  border-left: none;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+.submitbutton:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+.randomPokemon{
+  outline: none;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+}
+.randomPokemon:hover{
+  outline: none;
+  background-color: rgba(0,0,0,0.4);
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title{
+  margin:0 1rem;
+}
+img{
+  width:10rem
+}

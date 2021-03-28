@@ -1,0 +1,10 @@
+.pokeSearch{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.noPokemons{
+  margin-top: 12rem
+}

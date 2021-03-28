@@ -1,0 +1,94 @@
+.details{
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.pokemoninfo{
+  display: block;
+  width: 40rem;
+}
+@media (max-width: 600px){
+  .pokemoninfo{
+    width: 20rem;
+  }
+}
+.pokemonimages{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Abilities{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.ability{
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+.BaseExperience{
+  margin-bottom: 1rem;
+}
+.stats{
+  margin-bottom: 1rem;
+}
+.stat{
+  display: flex;
+  justify-content: center;
+  align-items:baseline
+}
+.statName{
+  margin-right: 1rem;
+}
+.StatBar{
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+.hp{
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: tomato;
+}
+.attack{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  border: none;
+}
+.defense{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  border: none;
+}
+.special-attack{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  border: none;
+}
+
+.special-defense{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  border: none;
+}
+.speed{
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  border: none;
+}
